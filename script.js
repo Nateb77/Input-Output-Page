@@ -143,3 +143,15 @@ tl
   .add(getFlipTimeline(), '+=2')
   .add(getBackTimeline(), '-=0.5');
 
+function showOutput () {
+    addEventListener
+    const FirstName = document.getElementById('FRName').value;
+    const LastName = document.getElementById('LName').value;
+    const email = document.getElementById('Email').value;
+    const game = document.getElementById('radios').value;
+    const WebsiteName = document.getElementById('Website').value;
+
+    const message = 'FRName' + FirstName + 'LName' + LastName + 'Email' + email + 'radios' + game + Website' + WebsiteName
+
+    document.getElementById('output').innerText = message;
+}
